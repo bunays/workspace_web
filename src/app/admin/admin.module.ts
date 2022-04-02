@@ -13,9 +13,9 @@ import { AddUserComponent } from './add-user/add-user.component';
 
 @NgModule({
   declarations: [
-    SidebarComponent,
-    NavigationComponent,
-    LayoutComponent,
+    // SidebarComponent,
+    // NavigationComponent,
+    // LayoutComponent,
     UserlistComponent,
     AddUserComponent,
    
