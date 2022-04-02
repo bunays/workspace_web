@@ -20,6 +20,10 @@ import { ErrorComponent } from './error/error.component';
       path: '',
       loadChildren: () => import('./admin/admin.module').then(x => x.AdminModule)
     },
+    {
+      path: '',
+      loadChildren: () => import('./workspace/workspace.module').then(x => x.WorkspaceModule)
+    },
     // { path: '**', component: ErrorComponent},
 
   ];
