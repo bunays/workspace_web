@@ -30,13 +30,13 @@ export class SidebarComponent implements OnInit {
         name: "Service",
         icon: "person",
         route: "servicelist",
-        active: true
+        active: false
       },
       {
         name: "Booking",
         icon: "person",
         route: "bookinglist",
-        active: true
+        active: false
       }
      
      

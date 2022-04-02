@@ -9,7 +9,7 @@ import { InvoiceComponent } from './invoice/invoice.component';
 const routes: Routes = [
   {
     path: '', component: LayoutComponent,
-    canActivate: [AuthGuard],
+    // canActivate: [AuthGuard],
     children: [
       { path: "", redirectTo: "invoicelist", pathMatch: "full" },
       { path: 'invoicelist', component: ListInvoiceComponent },
