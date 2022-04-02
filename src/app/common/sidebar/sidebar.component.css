@@ -25,7 +25,7 @@
 .sidebar[data-color="white"] li a {
     color: rgb(255, 255, 255);
     background-color: #2073c0d1;
-    height: 40px;
+    height: 40px; 
 }
 
 .sidebar[data-color="white"] li.active>a > i{
