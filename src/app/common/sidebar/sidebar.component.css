@@ -14,30 +14,28 @@
 }
 
 .logo a, .logo {
-    background-color:   #ffffff;
-    color: rgb(0, 0, 0);
+    background-color:   #6e6e6e;
+    color: #fff;
 }
 
 .sidebar[data-background-color="blueblack"] {
-    background-color: #ffffff;
+    background-color: #6e6e6e;
 }
 
 .sidebar[data-color="white"] li a {
     color: rgb(255, 255, 255);
-    background-color: #2073c0d1;
-    height: 40px; 
 }
 
 .sidebar[data-color="white"] li.active>a > i{
-    color: #ffffff;
-    background-color: #4caf50d1;
+    color: #000000;
+    background-color: #ffffff;
     text-align:center;
     margin-top: -5px;
     /* height: 40px; */
 }
 .sidebar[data-color="white"] li.active>a {
-    color: rgb(255, 255, 255);
-    background-color: #4caf50d1;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
     height: 40px;
 }
 

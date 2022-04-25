@@ -10,14 +10,22 @@ import { LayoutComponent } from './layout/layout.component';
 import {NavigationComponent} from '../common/navigation/navigation.component';
 import { UserlistComponent } from '../admin/userlist/userlist.component';
 import { AddUserComponent } from './add-user/add-user.component';
+import { ServicelistComponent } from './servicelist/servicelist.component';
+import { AddServiceComponent } from './add-service/add-service.component';
+import { BookinglistComponent } from './bookinglist/bookinglist.component';
+import { AddBookingComponent } from './add-booking/add-booking.component';
 
 @NgModule({
   declarations: [
-    // SidebarComponent,
-    // NavigationComponent,
-    // LayoutComponent,
+    SidebarComponent,
+    NavigationComponent,
+    LayoutComponent,
     UserlistComponent,
     AddUserComponent,
+    ServicelistComponent,
+    AddServiceComponent,
+    BookinglistComponent,
+    AddBookingComponent
    
   ],
   imports: [

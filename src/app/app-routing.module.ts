@@ -16,13 +16,9 @@ import { ErrorComponent } from './error/error.component';
 
     { path: "", redirectTo: "admin", pathMatch: "full" },
     { path: 'admin', loadChildren: () => import('./accounts/accounts.module').then(x => x.AccountsModule) },
-    // {
-    //   path: '',
-    //   loadChildren: () => import('./admin/admin.module').then(x => x.AdminModule)
-    // },
     {
       path: '',
-      loadChildren: () => import('./workspace/workspace.module').then(x => x.WorkspaceModule)
+      loadChildren: () => import('./admin/admin.module').then(x => x.AdminModule)
     },
     // { path: '**', component: ErrorComponent},
 
